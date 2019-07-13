@@ -10,7 +10,7 @@
 # 创建形
 【创建型设计模式】提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是直接使用 new 运算符直接实例化对象
 
-[1.单例模式（Singleton）](https://github.com/ChinesePowerful/gof23)
+[1.单例模式（Singleton）](https://github.com/ChinesePowerful/gof23/tree/master/src/singleton)
 <br>
 [2.简单工厂模式（Simple Factory）](https://github.com/ChinesePowerful/gof23)
 <br>
