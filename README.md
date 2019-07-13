@@ -14,7 +14,7 @@
 <br>
 [2.简单工厂模式（Simple Factory）](https://github.com/ChinesePowerful/gof23/tree/master/src/simple_factory)
 <br>
-[2.工厂方法模式（Factory Method）](https://github.com/ChinesePowerful/gof23/tree/master/src/simple_factory)
+[3.工厂方法模式（Factory Method）](https://github.com/ChinesePowerful/gof23/tree/master/src/simple_factory)
 <br>
 [4.抽象工厂模式（Abstract Factory）](https://github.com/ChinesePowerful/gof23)
 <br>
