@@ -1,4 +1,4 @@
-1.简单工厂模式（Simple Factory）
+2.简单工厂模式（Simple Factory）
 =====
 
 简介

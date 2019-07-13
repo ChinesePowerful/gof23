@@ -12,13 +12,15 @@
 
 [1.单例模式（Singleton）](https://github.com/ChinesePowerful/gof23/tree/master/src/singleton)
 <br>
-[2.简单工厂模式（Simple Factory）](https://github.com/ChinesePowerful/gof23)
+[2.简单工厂模式（Simple Factory）](https://github.com/ChinesePowerful/gof23/tree/master/src/simple_factory)
 <br>
-[3.抽象工厂模式（Abstract Factory）](https://github.com/ChinesePowerful/gof23)
+[2.工厂方法模式（Factory Method）](https://github.com/ChinesePowerful/gof23/tree/master/src/simple_factory)
 <br>
-[4.建造者模式（Builder）](https://github.com/ChinesePowerful/gof23)
+[4.抽象工厂模式（Abstract Factory）](https://github.com/ChinesePowerful/gof23)
 <br>
-[5.原型模式（Prototype）](https://github.com/ChinesePowerful/gof23)
+[5.建造者模式（Builder）](https://github.com/ChinesePowerful/gof23)
+<br>
+[6.原型模式（Prototype）](https://github.com/ChinesePowerful/gof23)
 
 # 行为型
 
