@@ -6,9 +6,9 @@ public class LazyMan {
 
     private LazyMan() {}
 
-    private static LazyMan getInstance() {
+    public static LazyMan getInstance() {
         if (null == instance) {
-            return new LazyMan();
+            instance = new LazyMan();
         }
         return instance;
     }
