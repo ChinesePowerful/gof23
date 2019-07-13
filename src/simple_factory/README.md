@@ -105,6 +105,7 @@ public class SimpleFactory {
 ```
 
 ### 调用类
+在以下实现中，调用者可以根据不同的条件从简单工厂类中获取不同的实例化对象
 ```java
 public class Main {
     public static void main(String[] args) throws IOException {
