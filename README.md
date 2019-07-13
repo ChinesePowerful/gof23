@@ -10,11 +10,11 @@
 # 创建形
 这些设计模式提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是直接使用 new 运算符直接实例化对象
 
-    1.单例模式（Singleton）
-    2.简单工厂模式（Simple Factory）
-    3.抽象工厂模式（Abstract Factory）
-    4.建造者模式（Builder）
-    5.原型模式（Prototype）
+- [1.单例模式（Singleton）](https://github.com/ChinesePowerful/gof23)
+- [2.简单工厂模式（Simple Factory）](https://github.com/ChinesePowerful/gof23)
+- [3.抽象工厂模式（Abstract Factory）](https://github.com/ChinesePowerful/gof23)
+- [4.建造者模式（Builder）](https://github.com/ChinesePowerful/gof23)
+- [5.原型模式（Prototype）](https://github.com/ChinesePowerful/gof23)
     
 
 # 行为型
