@@ -21,14 +21,6 @@ public class Branch {
         return this.fileList;
     }
 
-    public String getBranchName() {
-        return branchName;
-    }
-
-    public void setBranchName(String branchName) {
-        this.branchName = branchName;
-    }
-
     /**
      * 使用深拷贝
      * @param branchName 分枝名称
