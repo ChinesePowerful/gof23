@@ -18,7 +18,7 @@
 <br>
 [4.抽象工厂模式（Abstract Factory）](https://github.com/ChinesePowerful/gof23/tree/master/src/abstract_factory)
 <br>
-[5.建造者模式（Builder）](https://github.com/ChinesePowerful/gof23)
+[5.建造者模式（Builder）](https://github.com/ChinesePowerful/gof23/tree/master/src/builder)
 <br>
 [6.原型模式（Prototype）](https://github.com/ChinesePowerful/gof23)
 
