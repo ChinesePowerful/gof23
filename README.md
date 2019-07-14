@@ -23,6 +23,6 @@
 [6.原型模式（Prototype）](https://github.com/ChinesePowerful/gof23/tree/master/src/prototype)
 
 # 行为型
-
+*行为型设计模式* 特别关注对象之间的通信
 
 # 结构型
