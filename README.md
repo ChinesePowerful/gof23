@@ -8,7 +8,7 @@
 设计模式是多数人知晓的，可以降低沟通的成本，不需要了解底层细节
 
 # 创建形
-*创建型设计模式* 提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是直接使用 new 运算符直接实例化对象
+**创建型设计模式** 提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是直接使用 new 运算符直接实例化对象
 
 [1.单例模式（Singleton）](https://github.com/ChinesePowerful/gof23/tree/master/src/singleton)
 <br>
@@ -23,6 +23,6 @@
 [6.原型模式（Prototype）](https://github.com/ChinesePowerful/gof23/tree/master/src/prototype)
 
 # 行为型
-*行为型设计模式* 特别关注对象之间的通信
+**行为型设计模式** 特别关注对象之间的通信
 
 # 结构型
