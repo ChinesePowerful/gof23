@@ -28,8 +28,7 @@ public class Branch {
      */
     public Branch clone(String branchName) {
         Branch branch = new Branch(branchName);
-        for (File file :
-                this.fileList) {
+        for (File file : this.fileList) {
             branch.addFile(file.clone());
         }
         return branch;

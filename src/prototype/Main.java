@@ -14,7 +14,7 @@ public class Main {
 //        测试深拷贝是否成功
         int i = 0;
         List<File> fileList = master.getFileList();
-        for (File f: dev.getFileList()) {
+        for (File f : dev.getFileList()) {
             File file = fileList.get(i);
             System.out.println("file is equal: " + (file == f));
             System.out.println("index equal: " + (file.getFileName() == f.getFileName()));
