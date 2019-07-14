@@ -11,18 +11,21 @@
 **创建型设计模式** 提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是直接使用 new 运算符直接实例化对象
 
 [1.单例模式（Singleton）](https://github.com/ChinesePowerful/gof23/tree/master/src/singleton)
-<br>
+
 [2.简单工厂模式（Simple Factory）](https://github.com/ChinesePowerful/gof23/tree/master/src/simple_factory)
-<br>
+
 [3.工厂方法模式（Factory Method）](https://github.com/ChinesePowerful/gof23/tree/master/src/factory_method)
-<br>
+
 [4.抽象工厂模式（Abstract Factory）](https://github.com/ChinesePowerful/gof23/tree/master/src/abstract_factory)
-<br>
+
 [5.建造者模式（Builder）](https://github.com/ChinesePowerful/gof23/tree/master/src/builder)
-<br>
+
 [6.原型模式（Prototype）](https://github.com/ChinesePowerful/gof23/tree/master/src/prototype)
 
 # 行为型
 **行为型设计模式** 特别关注对象之间的通信
+
+[6.原型模式（Prototype）](https://github.com/ChinesePowerful/gof23/tree/master/src/prototype)
+
 
 # 结构型
