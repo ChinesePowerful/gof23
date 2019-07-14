@@ -20,7 +20,7 @@
 <br>
 [5.建造者模式（Builder）](https://github.com/ChinesePowerful/gof23/tree/master/src/builder)
 <br>
-[6.原型模式（Prototype）](https://github.com/ChinesePowerful/gof23)
+[6.原型模式（Prototype）](https://github.com/ChinesePowerful/gof23/tree/master/src/prototype)
 
 # 行为型
 
