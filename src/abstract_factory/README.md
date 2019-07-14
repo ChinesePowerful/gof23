@@ -26,7 +26,7 @@
 ----
 
 ### 实例
-- 一台电脑由很多类硬件组成，比如 CPU、GPU、主板、内存 等，它们每一类都有很多不同参数的产品。这些同一类但是不同参数的产品都属于 同一个产品等级结构，例如：
+- 一台电脑由很多类硬件组成，比如 CPU、GPU、主板、内存 等，它们每一类都有很多不同参数的产品。这些同一类但是不同参数的产品都属于 同一个等级的产品，例如：
     - CPU：I5-4590、I5-9400F、R5-3900X
     - GPU：GTX-970、GTX-2060、GTX-2080TI
     - 主板：B85M、B360M、X570
@@ -37,7 +37,7 @@
     - 高配主机：R5-3900X + GTX-2080TI + X570 + DDR4-32G
 - 流水线工人只需要获取已经搭配好的硬件进行组装即可，并不需要知道这些硬件搭配起来是否合适
 
-### 接口
+### 产品接口（定义同级产品）
 
 CPU 接口
 ```java
@@ -65,7 +65,7 @@ public interface RAM {
 }
 ```
 
-### 实现类
+### 产品实现类
 CPU 实现类
 ```java
 public class I5_4590 implements CPU {
@@ -151,6 +151,114 @@ public class DDR4_16G implements RAM {
 public class DDR4_32G implements RAM {
     public void printInfo() {
         System.out.println("I'm ddr4-32g");
+    }
+}
+```
+
+### 抽象接口（抽象出产品族）
+- 产品族：电脑
+- 用于定义不同规格的电脑应该配置什么硬件，调用者不需要考虑硬件的配置
+```java
+/**
+ * 抽象产品工厂，定义了同一个产品族生产产品的行为
+ */
+public interface Computer {
+    CPU getCPU();
+    GPU getGPU();
+    MainBoard getMainBoard();
+    RAM getRAM();
+}
+```
+
+### 实现抽象接口（产品族实现类）
+高配电脑
+```java
+public class High implements Computer {
+    public CPU getCPU() {
+        return new R5_3900X();
+    }
+
+    public GPU getGPU() {
+        return new GTX2080TI();
+    }
+
+    public MainBoard getMainBoard() {
+        return new X570();
+    }
+
+    public RAM getRAM() {
+        return new DDR4_32G();
+    }
+}
+```
+中配电脑
+```java
+public class Middle implements Computer {
+    public CPU getCPU() {
+        return new I5_9400F();
+    }
+
+    public GPU getGPU() {
+        return new GTX2060();
+    }
+
+    public MainBoard getMainBoard() {
+        return new B360M();
+    }
+
+    public RAM getRAM() {
+        return new DDR4_16G();
+    }
+}
+```
+低配电脑
+```java
+public class Low implements Computer {
+
+    public CPU getCPU() {
+        return new I5_4590();
+    }
+
+    public GPU getGPU() {
+        return new GTX970();
+    }
+
+    public MainBoard getMainBoard() {
+        return new B85M();
+    }
+
+    public RAM getRAM() {
+        return new DDR3_8G();
+    }
+}
+```
+
+### 调用类
+调用者不需要知道每个产品族内的产品细节
+```java
+public class Main {
+    public static void main(String[] args) throws IOException {
+        Computer computer = null;
+
+//        输入字符串选择电脑配置
+        String str = new BufferedReader(new InputStreamReader(System.in)).readLine();
+
+        if (str.equalsIgnoreCase("high")) {
+            computer = new High();
+        } else if (str.equalsIgnoreCase("middle")) {
+            computer = new Middle();
+        } else if (str.equalsIgnoreCase("low")) {
+            computer = new Low();
+        } else {
+            System.out.println("init error");
+            return;
+        }
+
+//        打印电脑配置信息
+        computer.getCPU().printInfo();
+        computer.getGPU().printInfo();
+        computer.getMainBoard().printInfo();
+        computer.getRAM().printInfo();
     }
 }
 ```
