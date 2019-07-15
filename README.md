@@ -65,4 +65,4 @@
 
 [25.享元模式（Flyweight）](https://github.com/ChinesePowerful/gof23/tree/master/src/flyweight)
 
-[25.代理模式（Proxy）](https://github.com/ChinesePowerful/gof23/tree/master/src/proxy)
+[26.代理模式（Proxy）](https://github.com/ChinesePowerful/gof23/tree/master/src/proxy)
