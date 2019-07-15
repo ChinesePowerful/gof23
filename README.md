@@ -26,7 +26,7 @@
 
 [7.责任链模式（Chain of Responsibility）](https://github.com/ChinesePowerful/gof23/tree/master/src/chain_of_responsibility)
 
-[8.命令模式（Command）](https://github.com/ChinesePowerful/gof23/tree/master/src/prototype)
+[8.命令模式（Command）](https://github.com/ChinesePowerful/gof23/tree/master/src/command)
 
 [9.解释器模式（Interpreter）](https://github.com/ChinesePowerful/gof23/tree/master/src/prototype)
 
