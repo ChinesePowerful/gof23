@@ -110,6 +110,7 @@ public class Phone {
 ```
 
 ### 实现命令接口
+单击电源
 ```java
 public class Power1Command implements Command {
     private final Phone phone;
@@ -121,6 +122,7 @@ public class Power1Command implements Command {
     }
 }
 ```
+长按电源
 ```java
 public class PowerCommand implements Command{
     private final Phone phone;
@@ -132,6 +134,7 @@ public class PowerCommand implements Command{
     }
 }
 ```
+双击电源
 ```java
 public class DoublePowerCommand implements Command{
     private final Phone phone;
@@ -143,6 +146,7 @@ public class DoublePowerCommand implements Command{
     }
 }
 ```
+点击音量-
 ```java
 public class VolumeDown1Command implements Command {
     private final Phone phone;
@@ -154,6 +158,7 @@ public class VolumeDown1Command implements Command {
     }
 }
 ```
+长按音量-
 ```java
 public class VolumeDownCommand implements Command{
     private final Phone phone;
@@ -165,6 +170,7 @@ public class VolumeDownCommand implements Command{
     }
 }
 ```
+单击音量+
 ```java
 public class VolumeUp1Command implements Command {
     private final Phone phone;
@@ -176,6 +182,7 @@ public class VolumeUp1Command implements Command {
     }
 }
 ```
+长按音量-
 ```java
 public class VolumeUpCommand implements Command{
     private final Phone phone;
